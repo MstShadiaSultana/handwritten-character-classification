@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+report/
+*.pdf
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated intermediate training checkpoints (keep the two bundled final models)
+models/letters_*.pth
+models/digit_classifier_from_scratch.pth
