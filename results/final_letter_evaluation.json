@@ -1,0 +1,13 @@
+{
+    "selected_experiment": "E8",
+    "selected_epoch": 6,
+    "best_validation_accuracy": 93.67788461538461,
+    "test_loss": 0.2018726516692326,
+    "test_accuracy": 93.51442307692308,
+    "test_samples": 20800,
+    "trainable_parameters": 217434,
+    "source_model": "models/letters_e8_epochs10_kernel5_channels16-32_lr0p001_bs64.pth",
+    "final_model": "models/best_letter_classifier.pth",
+    "confusion_matrix": "results/figures/final_letter_confusion_matrix.png",
+    "per_class_results": "results/final_letter_per_class_accuracy.csv"
+}

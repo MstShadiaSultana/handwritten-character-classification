@@ -1,0 +1,56 @@
+{
+    "task": "Task C Transfer Learning",
+    "source_letter_model": "models/best_letter_classifier.pth",
+    "final_digit_model": "models/best_digit_classifier.pth",
+    "dataset": "MNIST",
+    "training_samples": 54000,
+    "validation_samples": 6000,
+    "test_samples": 10000,
+    "total_parameters": 215370,
+    "frozen_parameters": 214080,
+    "trainable_parameters": 1290,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 5,
+    "best_epoch": 5,
+    "best_validation_accuracy": 97.61666666666666,
+    "final_train_accuracy": 97.85925925925926,
+    "final_train_loss": 0.07022405098930554,
+    "final_validation_loss": 0.07823342335224151,
+    "training_time_seconds": 43.97755250008777,
+    "wall_time_seconds": 43.97756060003303,
+    "test_loss": 0.061804199830070135,
+    "test_accuracy": 97.86,
+    "train_loss_history": [
+        0.23692819033949464,
+        0.0901229896462626,
+        0.07844132389735292,
+        0.07301678348636186,
+        0.07022405098930554
+    ],
+    "validation_loss_history": [
+        0.10835599108537038,
+        0.09142654140790303,
+        0.0836475726167361,
+        0.07845642780264218,
+        0.07823342335224151
+    ],
+    "train_accuracy_history": [
+        93.12037037037037,
+        97.26296296296296,
+        97.58703703703704,
+        97.72407407407407,
+        97.85925925925926
+    ],
+    "validation_accuracy_history": [
+        96.83333333333333,
+        97.4,
+        97.45,
+        97.58333333333333,
+        97.61666666666666
+    ],
+    "batch_loss_figure": "results/figures/digit_transfer_training_loss_per_batch.png",
+    "epoch_loss_figure": "results/figures/digit_transfer_training_loss_per_epoch.png"
+}

@@ -1,0 +1,3 @@
+Training method,Trainable parameters,Best validation accuracy (%),Test accuracy (%),Test loss,Training time (seconds)
+Transfer learning,1290,97.6167,97.8600,0.0618,43.9776
+From scratch,215370,98.9500,99.1700,0.0235,69.8578

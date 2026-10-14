@@ -1,0 +1,10 @@
+Experiment,Main modification,Feature maps,Kernel size,Learning rate,Batch size,Epochs,Best epoch,Trainable parameters,Final training accuracy (%),Best validation accuracy (%),Final validation loss,Training time (seconds)
+Baseline,Required simple CNN,8,3,0.0010,64,5,5,40874,87.9345,87.0673,0.4107,76.1492
+E1,Added second convolution and hidden layer,16 → 32,3,0.0010,64,5,5,208986,93.9067,92.9567,0.2240,236.1825
+E2,Reduced feature maps,8 → 16,3,0.0010,64,5,4,105082,92.9567,92.0673,0.2469,163.0526
+E3,Increased kernel size,16 → 32,5,0.0010,64,5,5,217434,94.5967,93.5256,0.2032,185.4904
+E4,Lower learning rate,16 → 32,5,0.0001,64,5,5,217434,90.8903,90.7853,0.2913,184.8473
+E5,Higher learning rate,16 → 32,5,0.0100,64,5,1,217434,3.8328,3.8462,3.2587,198.5727
+E6,Smaller batch size,16 → 32,5,0.0010,32,5,5,217434,94.6857,93.2692,0.2147,248.0722
+E7,Larger batch size,16 → 32,5,0.0010,128,5,5,217434,94.1382,93.1490,0.2084,162.8994
+E8,Increased epochs,16 → 32,5,0.0010,64,10,6,217434,96.2642,93.6779,0.2274,393.3493

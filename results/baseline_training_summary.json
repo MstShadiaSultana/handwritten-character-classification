@@ -1,0 +1,47 @@
+{
+    "model_name": "BaselineCNN",
+    "architecture": "Conv2d(1,8,3,padding=1) -> ReLU -> MaxPool2d(2,2) -> Flatten -> Linear(1568,26)",
+    "device": "cpu",
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 5,
+    "trainable_parameters": 40874,
+    "training_samples": 112320,
+    "validation_samples": 12480,
+    "test_samples": 20800,
+    "total_training_time_seconds": 76.14922800008208,
+    "best_validation_accuracy": 87.0673076923077,
+    "test_loss": 0.40994759732714064,
+    "test_accuracy": 87.46153846153847,
+    "train_loss_history": [
+        1.064423832220909,
+        0.6448805311636367,
+        0.48832111801007533,
+        0.4196184511622812,
+        0.3857508491714116
+    ],
+    "validation_loss_history": [
+        0.7974486224162273,
+        0.536734798627022,
+        0.4712769169073838,
+        0.4238009052398877,
+        0.41067737211019567
+    ],
+    "train_accuracy_history": [
+        69.13728632478633,
+        81.12535612535612,
+        85.20210113960114,
+        87.11716524216524,
+        87.93447293447294
+    ],
+    "validation_accuracy_history": [
+        76.66666666666667,
+        84.22275641025641,
+        85.63301282051282,
+        86.61057692307692,
+        87.0673076923077
+    ],
+    "saved_model": "models/letters_baseline_conv8_k3_lr0p001_bs64_ep5.pth"
+}

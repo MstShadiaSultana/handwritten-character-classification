@@ -1,0 +1,57 @@
+{
+    "experiment_id": "E4",
+    "experiment_type": "learning_rate",
+    "model_name": "ConfigurableCNN",
+    "architecture": "Conv2d(1,16,5,padding=2) -> ReLU -> MaxPool2d(2,2) -> Conv2d(16,32,5,padding=2) -> ReLU -> MaxPool2d(2,2) -> Flatten -> Linear(1568,128) -> ReLU -> Linear(128,26)",
+    "first_channels": 16,
+    "second_channels": 32,
+    "kernel_size": 5,
+    "hidden_features": 128,
+    "device": "cpu",
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "learning_rate": 0.0001,
+    "batch_size": 64,
+    "epochs": 5,
+    "random_seed": 42,
+    "trainable_parameters": 217434,
+    "training_samples": 112320,
+    "validation_samples": 12480,
+    "best_epoch": 5,
+    "best_validation_accuracy": 90.78525641025641,
+    "final_train_accuracy": 90.8903133903134,
+    "final_train_loss": 0.2829307640422443,
+    "final_validation_loss": 0.2913444458674162,
+    "total_training_time_seconds": 184.84734979993664,
+    "train_loss_history": [
+        1.1703991020676756,
+        0.5325910315214738,
+        0.38221916277439166,
+        0.3182730954596799,
+        0.2829307640422443
+    ],
+    "validation_loss_history": [
+        0.6846832608565306,
+        0.43122973717176,
+        0.35268172659935093,
+        0.31443337607078065,
+        0.2913444458674162
+    ],
+    "train_accuracy_history": [
+        66.41470797720798,
+        83.74554843304843,
+        88.00391737891738,
+        89.95548433048432,
+        90.8903133903134
+    ],
+    "validation_accuracy_history": [
+        78.8301282051282,
+        86.6025641025641,
+        89.04647435897436,
+        90.01602564102564,
+        90.78525641025641
+    ],
+    "saved_model": "models/letters_e4_lr0p0001_kernel5_channels16-32_bs64_ep5.pth",
+    "batch_loss_figure": "results/figures/e4_lr0p0001_training_loss_per_batch.png",
+    "epoch_loss_figure": "results/figures/e4_lr0p0001_training_loss_per_epoch.png"
+}

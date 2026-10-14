@@ -1,0 +1,34 @@
+IAOR FINAL PROJECT — RESULTS SUMMARY
+============================================================
+
+BEST LETTER CLASSIFICATION EXPERIMENT
+Experiment: E8
+Main modification: Increased epochs
+Best validation accuracy: 93.68%
+Selected epoch: 6
+Recorded training time: 393.35 seconds
+
+FINAL LETTER TEST EVALUATION
+Test accuracy: 93.51%
+Test loss: 0.2019
+Test samples: 20,800
+
+DIGIT TRANSFER LEARNING
+Trainable parameters: 1,290
+Validation accuracy: 97.62%
+Test accuracy: 97.86%
+Training time: 43.98 seconds
+
+DIGIT FROM-SCRATCH CONTROL EXPERIMENT
+Trainable parameters: 215,370
+Test accuracy: 99.17%
+Training time: 69.86 seconds
+
+SELF-GENERATED IMAGE EVALUATION
+Images evaluated: 36
+Correct predictions: 34
+Overall custom-image accuracy: 94.44%
+Letter accuracy: 96.15% (25/26)
+Digit accuracy: 90.00% (9/10)
+
+============================================================

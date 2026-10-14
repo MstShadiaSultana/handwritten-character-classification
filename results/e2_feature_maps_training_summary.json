@@ -1,0 +1,52 @@
+{
+    "experiment_id": "E2",
+    "model_name": "ConfigurableCNN",
+    "first_channels": 8,
+    "second_channels": 16,
+    "kernel_size": 3,
+    "hidden_features": 128,
+    "device": "cpu",
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 5,
+    "trainable_parameters": 105082,
+    "training_samples": 112320,
+    "validation_samples": 12480,
+    "best_epoch": 4,
+    "best_validation_accuracy": 92.0673076923077,
+    "final_train_accuracy": 92.95673076923077,
+    "final_train_loss": 0.20778163625643803,
+    "final_validation_loss": 0.246923168691305,
+    "total_training_time_seconds": 163.05258570006117,
+    "train_loss_history": [
+        0.6723229835685501,
+        0.3205395156968693,
+        0.26231588201008293,
+        0.22980419727217438,
+        0.20778163625643803
+    ],
+    "validation_loss_history": [
+        0.3876234751481276,
+        0.28521169618918346,
+        0.26813435902198157,
+        0.24930937332220568,
+        0.246923168691305
+    ],
+    "train_accuracy_history": [
+        79.29665242165242,
+        89.56285612535612,
+        91.34704415954415,
+        92.32638888888889,
+        92.95673076923077
+    ],
+    "validation_accuracy_history": [
+        87.63621794871794,
+        90.88942307692308,
+        91.24198717948718,
+        92.0673076923077,
+        91.97115384615384
+    ],
+    "saved_model": "models/letters_e2_channels8-16_k3_fc128_lr0p001_bs64_ep5.pth"
+}

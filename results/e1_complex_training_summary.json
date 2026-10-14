@@ -1,0 +1,49 @@
+{
+    "experiment_id": "E1",
+    "model_name": "ComplexCNN",
+    "architecture": "Conv2d(1,16,3,padding=1) -> ReLU -> MaxPool2d(2,2) -> Conv2d(16,32,3,padding=1) -> ReLU -> MaxPool2d(2,2) -> Flatten -> Linear(1568,128) -> ReLU -> Linear(128,26)",
+    "device": "cpu",
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 5,
+    "trainable_parameters": 208986,
+    "training_samples": 112320,
+    "validation_samples": 12480,
+    "best_epoch": 5,
+    "best_validation_accuracy": 92.95673076923077,
+    "final_train_accuracy": 93.90669515669515,
+    "final_train_loss": 0.17692955025707893,
+    "final_validation_loss": 0.22396339827623124,
+    "total_training_time_seconds": 236.1824645001907,
+    "train_loss_history": [
+        0.5923467415053281,
+        0.2765280158537575,
+        0.2264765822840722,
+        0.19913247228623965,
+        0.17692955025707893
+    ],
+    "validation_loss_history": [
+        0.33012457543458695,
+        0.25584014562460095,
+        0.2447729881757345,
+        0.23109390219816794,
+        0.22396339827623124
+    ],
+    "train_accuracy_history": [
+        81.62571225071225,
+        90.89832621082621,
+        92.43233618233619,
+        93.22560541310541,
+        93.90669515669515
+    ],
+    "validation_accuracy_history": [
+        89.39102564102564,
+        91.9551282051282,
+        92.17147435897436,
+        92.49198717948718,
+        92.95673076923077
+    ],
+    "saved_model": "models/letters_complex_e1_conv16-32_fc128_k3_lr0p001_bs64_ep5.pth"
+}

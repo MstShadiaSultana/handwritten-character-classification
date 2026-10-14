@@ -1,0 +1,54 @@
+{
+    "experiment": "MNIST full training from scratch",
+    "training_method": "from_scratch",
+    "dataset": "MNIST",
+    "training_samples": 54000,
+    "validation_samples": 6000,
+    "test_samples": 10000,
+    "total_parameters": 215370,
+    "trainable_parameters": 215370,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 5,
+    "best_epoch": 5,
+    "best_validation_accuracy": 98.95,
+    "final_train_accuracy": 99.32037037037037,
+    "final_train_loss": 0.020872084088382068,
+    "final_validation_loss": 0.036389553521371756,
+    "training_time_seconds": 69.85775960003957,
+    "test_loss": 0.0235226964097179,
+    "test_accuracy": 99.17,
+    "train_loss_history": [
+        0.19238827235886344,
+        0.05106203599874344,
+        0.03596685954141948,
+        0.02770896355614618,
+        0.020872084088382068
+    ],
+    "validation_loss_history": [
+        0.07229446139931679,
+        0.060001031969984374,
+        0.04094086750472585,
+        0.05148175673248867,
+        0.036389553521371756
+    ],
+    "train_accuracy_history": [
+        94.2,
+        98.41296296296296,
+        98.9574074074074,
+        99.11666666666666,
+        99.32037037037037
+    ],
+    "validation_accuracy_history": [
+        97.93333333333334,
+        98.26666666666667,
+        98.9,
+        98.4,
+        98.95
+    ],
+    "saved_model": "models/digit_classifier_from_scratch.pth",
+    "batch_loss_figure": "results/figures/digit_from_scratch_loss_per_batch.png",
+    "epoch_loss_figure": "results/figures/digit_from_scratch_loss_per_epoch.png"
+}
